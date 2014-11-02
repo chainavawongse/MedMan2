@@ -1,0 +1,41 @@
+.pageContent {
+  width: 90%;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pageHeader {
+  background-color: #AB2328;
+  border-left: #8A2A2B 2px solid;
+  border-right: #8A2A2B 2px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*-moz-box-shadow: 0px 0px 5px 2px #802F2D;*/
+  /*-webkit-box-shadow: 0px 0px 5px 2px #802F2D;*/
+  /*box-shadow: 0px 0px 5px 2px #802F2D;*/
+}
+
+.pageBody {
+  background-color: #fff7e2;
+  border-left: #fff7e2 2px solid;
+  border-right: #fff7e2 2px solid;
+  min-height: 550px;
+  /*-moz-box-shadow: 0px 0px 5px 2px #c5a454;*/
+  /*-webkit-box-shadow: 0px 0px 5px 2px #c5a454;*/
+  /*box-shadow: 0px 0px 5px 2px #c5a454;*/
+}
+
+.nav > li > a {
+  color: white;
+}
+
+.nav > li > a:hover {
+  background-color: #fff7e2 !important;
+  color: black;
+}
+
+.body {
+  background: url('../background-01.png') repeat;
+}
