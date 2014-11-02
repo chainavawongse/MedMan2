@@ -10,8 +10,8 @@
   background-color: #AB2328;
   border-left: #8A2A2B 2px solid;
   border-right: #8A2A2B 2px solid;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   /*-moz-box-shadow: 0px 0px 5px 2px #802F2D;*/
   /*-webkit-box-shadow: 0px 0px 5px 2px #802F2D;*/
   /*box-shadow: 0px 0px 5px 2px #802F2D;*/
@@ -21,7 +21,7 @@
   background-color: #fff7e2;
   border-left: #fff7e2 2px solid;
   border-right: #fff7e2 2px solid;
-  min-height: 550px;
+  min-height: 500px;
   /*-moz-box-shadow: 0px 0px 5px 2px #c5a454;*/
   /*-webkit-box-shadow: 0px 0px 5px 2px #c5a454;*/
   /*box-shadow: 0px 0px 5px 2px #c5a454;*/
@@ -38,4 +38,11 @@
 
 .body {
   background: url('../background-01.png') repeat;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
 }

@@ -9,13 +9,33 @@ medManApp.config(['$routeProvider', function($routeProvider) {
       .when('/', {
           templateUrl: 'templates/index.html',
           controller: 'homeController',
-          title : ''
+          title : 'Home'
       })
       .when('/Home', {
           templateUrl: 'templates/index.html',
           controller: 'homeController',
           title : 'Home'
 
+      })
+      .when('/Vendors', {
+          templateUrl: 'templates/vendors.html',
+          controller: 'vendorController',
+          title: 'Vendors'
+      })
+      .when('/ContactUs', {
+          templateUrl: 'templates/contact.html',
+          controller: 'contactController',
+          title: 'Contact Us'
+      })
+      .when('/WhatWeDo', {
+          templateUrl: 'templates/about.html',
+          controller: 'homeController',
+          title: 'About Us'
+      })
+      .when('/About', {
+          templateUrl: 'templates/about.html',
+          controller: 'homeController',
+          title: 'About Us'
       })
       .otherwise({redirectTo: '/'});
 }]);
