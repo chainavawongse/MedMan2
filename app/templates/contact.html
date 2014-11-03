@@ -1,0 +1,18 @@
+<p>Contact Us</p>
+<div ng-repeat="contact_row in allContacts" class="row">
+    <div ng-repeat="contact in contact_row" class="col-md-4">
+        <div class="contactCard">
+            <div class="row">
+                <div class="col-md-3">
+                    Image
+                </div>
+                <div class="col-md-7">
+                    <div ng-bind="contact.name" class="contact-name"></div>
+                    <div ng-bind="contact.title" class="contact-title"></div>
+                    <div ng-bind="contact.phone" class="contact-phone"></div>
+                    <a ng-href="mailto:{{contact.email}}">{{ contact.email}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
